@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="upper-header">
+            <div class="header-links"> 
+                <div class="header-logo">Miami Real Estate</div>
+            <ul style="list-style: none">
+                <li><div class="links">Listings</div></li>
+                <li><div class="links">Log in</div></li>
+                <li><div class="links">Sign up</div></li>
+            </ul>
+        </div>
+   
+    </div>    
+
+    
+     <div class="search">
+    
+        <div class="title">Find Your Dream Home Here.</div>
+        <div class="input2"><input type="text"></div>
+        <div class="buttons">
+            <button>SEARCH</button>
+        </div>
+    </div>    
+    
+
+    <div class="container">
+        <div class="lines">
+            <div class ="line1">Subscribe to our newsletter</div>
+            <div class ="line2">Get the latest news about the real estate market in Miami</div>
+        </div>    
+        <div class="sign">    
+            <button class = "line3">Sign up</button>
+        </div>
+    </div>
+
+    </div>   
+
+    <div class="lower-header">
+            
+            <div class="up">
+                <div class="lower1"> Our Featured Listings </div>
+                <div class="lower2">Miami Real Estate receives significant attention within the real estate community and beyond; as Hugo and his elite agents sell luxury homes to their affluent and celebrity clients. With more than $400 million in active listings, the brokerage boasts some of the most impressive properties in Miami, including the largest home in Fisher Island and one of the largest listings in Florida at $100 million.</div>
+            </div>
+            <div class="down">
+                <div class="listing1">
+                    <div class="placeholder">
+                        <div class="listingTitle">CORAL GABLES, FL</div>
+                        <div class="listingBrief">555 Arvida Pkwy, Coral Gables, FL 33156</div>
+                        <div class="listingDescription">Inspiring awe with 16,749 Sq. Ft. of extraordinary living space across 3 levels, six bedrooms, six full and two half baths, this home is a work of art.</div>
+                        <button class="listingButton">See more</button>
+                    </div>
+
+                    <img class="brickell" src = ./listing1.png>
+                </div>
+                <div class="listing2">
+                    <div class="placeholder">
+                        <div class="listingTitle">BRICKELL, FL</div>
+                        <div class="listingBrief">1451 Brickell Ave #1, Miami, FL 33131</div>
+                        <div class="listingDescription">The Pinnacle of Penthouse Living! ECHO PH1 is a statement of ultra lux innovation featuring 11,000SF of sophisticated interiors + indoor Sky Pool.</div>
+                        <button class="listingButton">See more</button>
+                    </div>
+                    <img class="brickell" src = ./listing2.png>
+                </div>
+                <div class="listing3">
+                    <div class="placeholder">
+                        <div class="listingTitle">FISHER ISLAND, FL</div>
+                        <div class="listingBrief">6913 Valencia Dr, Miami Beach, FL 33109</div>
+                        <div class="listingDescription">Upon entering the home, you are greeted by 25-foot ceilings with an abundant natural light. The estate features a single level open floorplan with a chef's kitchen.</div>
+                        <button class="listingButton">See more</button>
+                    </div>
+                        
+                    <img class="brickell" src = ./listing3.png>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="upper">
+        <div class="upper-title">List With Us</div>
+            <div class="listWithUs">Sell your home with the best team in Miami</div>
+           
+
+            <div class="inputUp">
+                <div class="name">
+                    <div class="nameTitle">NAME</div>
+                    <input class="nameInput" type="text">
+                </div>
+               
+                <div class="email">
+                    <div class="emailTitle">EMAIL ADDRESS</div>
+                    <input class="emailInput" type="text">
+                </div>
+      
+            </div>
+
+            
+            <div class="messageTitle">MESSAGE</div>
+            <input class="messageInput" type="text"></div>
+
+            <button class="listButton">Submit</button>
+        </div>
+        </div> 
+    </div>
+
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+    <script>
+    function myMap() {
+    var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+  
+    <div class="middle">
+        <div class="quote">Our goal is to help you find your dream home in Florida. We understand buying a house is one of the most important decisions and we take it very seriosly providing and outstanding customer experience. </div> 
+        <div class="autor"> - Hugo Gibbs, CEO / Broker</div>
+    </div>
+
+    <div class="lower">
+
+
+    <div class="footer">
+        Copyright © Hugo Gibbs 2022, Designed for Miami Real Estate Inc. All rights reserved
+    </div>
+  
+</body>
+</html>

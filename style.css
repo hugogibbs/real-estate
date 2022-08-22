@@ -1,0 +1,387 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-logo {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;     
+    font-weight: bold;
+    
+}
+
+.title {
+    font-size: 64px;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f9faf8;
+}
+
+.brickell {
+    width: 300px;
+    height: 300px;
+}
+
+.listing1 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.listing2 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.listing3 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("./logo.png");
+    background-size: 1300px 700px;
+}
+  
+  button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    color: #f9faf8;
+    padding: 16px 50px;
+    margin-top: 10px;
+  }
+  
+  input {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 8px 24px;
+    width: 600px;
+    margin-bottom: 16px;
+  }
+  
+
+.upper-header {
+    background-color: #1f2937;
+    color: white;
+    padding-left: 90px;
+    padding-right: 90px;
+
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 32px;
+}
+
+.links {
+    padding: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.up {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.down {
+    width: 800px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.listingTitle {
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.listingBrief {
+    padding: 10px 30px;
+
+}
+
+.listingDescription {
+    padding: 10px 30px;
+    font-weight: lighter;
+}
+
+.lower-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url(./miami6.png);
+    background-size: 1300px 1100px;
+    height: 1000px;
+}
+
+.placeholder{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lower1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.listWithUs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.lower2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #f9faf8;
+    line-height: 30px;
+}
+
+.lower3 {
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 0;
+    border: #f9faf8;
+    border-width: 2px;
+    border-color: #f9faf8;
+    font-size: 18px;
+    padding: 8px 24px;
+    margin-top: 12px;
+    margin-bottom: 100px;
+}
+
+    
+
+.middle {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 250;
+}
+
+.autor {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.lower {
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.line1{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.line2{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign{
+    display: flex;
+    align-items: center;
+}
+
+.line3{
+    padding: 8px 32px;
+    border-radius: 5px;
+    background: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.listingButton {
+    background: red;
+    border-color: solid #f9faf8;
+    padding: 8px 16px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    border: 2px;
+
+}
+
+.placeholder {
+    
+}
+
+.upper-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.inputUp {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-left: 230px;
+    margin-right: 230px;
+    
+  
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+}
+
+.info {
+    width: 200px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    width: 150px;
+    padding-top: 10px;
+
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #e5e7eb;
+}
+
+.listUp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 1000px;
+    
+}
+
+.nameInput {
+    width: 265px;
+    margin-top: 10px;
+}
+
+.emailInput {
+    width: 265px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.messageInput {
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+
+.email {
+    margin-right: 35px;
+}
+
+.listButton {
+    margin-bottom: 50px;
+    margin-left: 550px;
+}
+
+.inputUp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameTitle {
+    font-size: 13px;
+}
+
+
+.emailTitle {
+    font-size: 13px;
+    padding-left: 10px ;
+}
+
+
+.messageTitle {
+    font-size: 13px;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
