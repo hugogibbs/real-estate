@@ -50,8 +50,30 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: url("./logo.png");
+    animation: animate ease-in-out infinite;
+    -webkit-animation-duration: 8s;
     background-size: 1300px 700px;
-}
+    }
+    
+    @keyframes animate {
+        0%, 100%{
+        background-image: url("./logo.png");
+    }
+    20%{
+        background-image: url("./logo3.png");
+    }
+    40%{
+        background-image: url("./logo5.png");
+    }
+    60%{
+        background-image: url("./logo6.png");
+    }
+    80%{
+        background-image: url("./logo7.png");
+    }
+    
+    }
+
   
   button {
     font-family: Roboto, sans-serif;
