@@ -49,22 +49,28 @@ body {
     align-items: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url("./logo.png");
-    animation: animate 16s 2s cubic-bezier(0.075, 0.82, 0.165, 2) infinite;
+    background-image: url("./logo.jpg");
+    animation: animate 32s cubic-bezier(0.075, 0.82, 0.165, 2) infinite;
     background-size: 1300px 700px;
-    }
-    
+}
+
     @keyframes animate {
-        0%, 100%{
-        background-image: url("./logo.png");
-    }
-    30%{
-        background-image: url("./logo3.png");
-    }
-    60%{
-        background-image: url("./logo5.png");
-    }
-    
+        0%{
+            background-image: url("./logo.jpg");
+        }
+        20%{
+            background-image: url("./logo3.jpg");
+        }
+        40%{
+            background-image: url("./logo5.jpg");
+        }
+        60%{
+            background-image: url("./logo6.jpg");
+        }
+        80%{
+            background-image: url("./logo7.jpg");
+        }
+
     }
 
   
