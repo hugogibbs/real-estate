@@ -50,7 +50,7 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: url("./logo.jpg");
-    animation: animate 32s 2s cubic-bezier(0.075, 0.82, 0.165, 2) infinite;
+    animation: animate 25s 1s cubic-bezier(0.075, 0.82, 0.165, 2) infinite;
     background-size: 1300px 700px;
 }
 
