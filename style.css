@@ -253,7 +253,6 @@ ul {
     background-image: url("./miami-fixed.png");
     padding-top: 100px;
     padding-bottom: 100px;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -307,6 +306,13 @@ ul {
     padding-bottom: 10px;
     font-weight: bold;
     font-size: 35px;
+}
+
+.sticky{
+    position:-webkit-sticky;
+    position:sticky;
+    top:0px;
+
 }
 
 .inputUp {
