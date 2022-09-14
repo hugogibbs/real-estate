@@ -32,7 +32,7 @@
         <div class="search">
 
             <div class="title">Find Your Dream Home Here.</div>
-            <div class="input2"><input type="text"></div>
+            <div class="input2"><input type="input"></div>
             <div class="buttons">
                 <button>SEARCH</button>
             </div>
@@ -93,24 +93,35 @@
         </div>
     </div>
     <div class="upper">
-        <div class="upper-title">List With Us</div>
-            <div class="listWithUs">Sell your home with the best team in Miami</div>
-            <div class="inputUp">
-                <div class="name">
-                    <div class="nameTitle">NAME</div>
-                    <input class="nameInput" type="text">
-                </div>
-                <div class="email">
-                    <div class="emailTitle">EMAIL ADDRESS</div>
-                    <form action="example.com/path" method="post">
-                    <input type="email" class="emailInput">
-                    </form>
-                </div>
-            </div>            
-            <div class="messageTitle">MESSAGE</div>
-            <textarea class="messageInput">Type your message here</textarea>
+        <form action="#" method="get">
+      
+            <div class="upper-title">List With Us</div>
+                <div class="listWithUs">Sell your home with the best team in Miami</div>
+                <div class="inputUp">
+                    <div class="name">
+                    
+                
+                        <label for="first_name">NAME</label>
+                        <input class="nameInput" type="text" id="first_name" name="first_name" required>
+                    
+                    </div>
+                    <div class="email">
+                        
+                        <label for="email" class="mail">EMAIL ADDRESS</label>
+                        <input type="email" class="emailInput" id="email" name="email" required>
+                    
+                    </div>
+                </div>            
+                
+                        <label for="message" class="messageInput">MESSAGE</label>
+                        <textarea class="messageInput" id="message" name="message" required minlength="20" maxlength="150"></textarea>
 
-            <button type="submit" class="listButton">Submit</button>
+                        <button type="submit" class="listButton">Submit</button>
+        
+                </div>
+       
+        </form>
+        
         </div>
         </div> 
     </div>
