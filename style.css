@@ -125,6 +125,11 @@ a.links {
     text-decoration: none;
 }
 
+a.signup {
+    text-decoration: none;
+    color: inherit;
+}
+
 .up {
     width: 400px;
     display: flex;
