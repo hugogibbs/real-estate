@@ -127,7 +127,7 @@ a.links {
 
 a.signup {
     text-decoration: none;
-    color: inherit;
+    color: #e5e7eb;
 }
 
 .up {
@@ -296,6 +296,7 @@ li {
     border: 2px solid #f9faf8;
     font-weight: bold;
     font-size: 18px;
+    text-decoration: none;
 }
 
 
