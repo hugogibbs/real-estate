@@ -120,6 +120,11 @@ ul {
     padding-right: 32px;
 }
 
+a.links {
+    color: inherit;
+    text-decoration: none;
+}
+
 .up {
     width: 400px;
     display: flex;
@@ -128,6 +133,10 @@ ul {
 
 }
 
+li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
 
 
 .down {
