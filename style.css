@@ -163,18 +163,20 @@ a.dropbtn:hover {
 }
 
 .dropdown-content {
-    display: block;
+    visibility: hidden;
     position: absolute;
+    display: block;
     background-color: #f9f9f9;
     margin-top: -109px;
     margin-right: 10px;
-    transition: margin-top 300ms ease-in-out;
+    transition: margin-top 400ms ease-in-out;
     
   }
 
 
 .dropdown:hover .dropdown-content {
     display: block;
+    visibility: visible;
     margin-top: 27px;
     cursor: pointer;
   }
