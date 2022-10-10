@@ -119,6 +119,7 @@ ul {
     margin: 0px;
 }
 
+
 .links {
     padding: 8px;
     padding-left: 32px;
@@ -162,12 +163,13 @@ a.dropbtn:hover {
 }
 
 .dropdown-content {
-    display: none;
+    display: block;
     position: absolute;
     background-color: #f9f9f9;
     margin-top: -109px;
     margin-right: 10px;
-    transition: margin-top 200ms ease-in;
+    transition: margin-top 300ms ease-in-out;
+    
   }
 
 
@@ -229,6 +231,11 @@ a.signup {
     font-weight: lighter;
 }
 
+.bigContainer {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
 .lower-header {
     display: flex;
     justify-content: space-between;
@@ -236,6 +243,7 @@ a.signup {
     background-image: url(./miami6.png);
     background-size: 1300px 1100px;
     height: 1000px;
+    scroll-behavior: smooth;
 }
 
 .placeholder{
