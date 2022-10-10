@@ -34,16 +34,35 @@ body {
 .listing1 {
     display: flex;
     margin-bottom: 50px;
+    margin-right: 0px;
+}
+
+.listing1:hover {
+    transition: margin-right 300ms ease-in-out;
+    margin-right: 30px;
 }
 
 .listing2 {
     display: flex;
     margin-bottom: 50px;
+    margin-right: 0px;
 }
+
+.listing2:hover {
+    transition: margin-right 300ms ease-in-out;
+    margin-right: 30px;
+}
+
 
 .listing3 {
     display: flex;
     margin-bottom: 50px;
+    margin-right: 0px;
+}
+
+.listing3:hover {
+    transition: margin-right 300ms ease-in-out;
+    margin-right: 30px;
 }
 
 
@@ -163,21 +182,16 @@ a.dropbtn:hover {
 }
 
 .dropdown-content {
-    visibility: hidden;
+    display: none;
     position: absolute;
-    display: block;
     background-color: #f9f9f9;
-    margin-top: -109px;
+    margin-top: 27px;
     margin-right: 10px;
-    transition: margin-top 400ms ease-in-out;
-    
   }
 
 
 .dropdown:hover .dropdown-content {
     display: block;
-    visibility: visible;
-    margin-top: 27px;
     cursor: pointer;
   }
 
