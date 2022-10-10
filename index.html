@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miami Real Estate</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <link rel="preload" href="./logo.jpg" as="image">
     <link rel="preload" href="./logo3.jpg" as="image">
     <link rel="preload" href="./logo5.jpg" as="image">
@@ -19,15 +20,24 @@
         <div class="sticky">  
             <div class="upper-header">
                 <div class="header-links"> 
-                    <div class="header-logo">Luxury Miami Real Estate</div>
+                    <div class="header-logo" href="#">Luxury Miami Real Estate</div>
                     <ul style="list-style: none">
-                        <li><a class="links">Listings</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="dropbtn">Listings ▼<i class="fa fa-caret-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="#coralGables" class="option">Coral Gables</a>
+                                    <a href="#brickell" class="option">Brickell</a>
+                                    <a href="#fisherIsland" class="option">Fisher Island</a>
+                            </div>
+                        </li>
                         <li><a class="links">Log in</a></li>
                         <li><a class="links" href="https://hugogibbs.github.io/signup/">Sign up</a></li>
                     </ul>
                 </div>
             </div>
         </div>
+        
         
         <div class="search">
 
@@ -59,6 +69,7 @@
                 <div class="lower1"> Our Featured Listings </div>
                 <div class="lower2">Miami Real Estate receives significant attention within the real estate community and beyond; as Hugo and his elite agents sell luxury homes to their affluent and celebrity clients. With more than $400 million in active listings, the brokerage boasts some of the most impressive properties in Miami, including the largest home in Fisher Island and one of the largest listings in Florida at $100 million.</div>
             </div>
+            
             <div class="down">
                 <div class="listing1">
                     <div class="placeholder">
@@ -68,7 +79,7 @@
                         <button class="listingButton">See more</button>
                     </div>
 
-                    <img class="brickell" src = ./listing1.png>
+                    <img class="brickell" id="coralGables" src = ./listing1.png>
                 </div>
                 <div class="listing2">
                     <div class="placeholder">
@@ -77,7 +88,7 @@
                         <div class="listingDescription">The Pinnacle of Penthouse Living! ECHO PH1 is a statement of ultra lux innovation featuring 11,000SF of sophisticated interiors + indoor Sky Pool.</div>
                         <button class="listingButton">See more</button>
                     </div>
-                    <img class="brickell" src = ./listing2.png>
+                    <img class="brickell" id="brickell" src = ./listing2.png>
                 </div>
                 <div class="listing3">
                     <div class="placeholder">
@@ -87,7 +98,7 @@
                         <button class="listingButton">See more</button>
                     </div>
                         
-                    <img class="brickell" src = ./listing3.png>
+                    <img class="brickell" id="fisherIsland" src = ./listing3.png>
                 </div>
             </div>
         </div>
